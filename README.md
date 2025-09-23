@@ -25,4 +25,5 @@ Semantic HTML structure with <header>, <main>, <article>, <aside>, and <footer>
 Open index.html or tweets.html in any modern browser. Resize the window to test responsiveness. All styles are loaded from base.css and styles.css.
 
  Author
+ 
 Built by Regun — aspiring health tech founder, front-end engineer in training, and systems thinker.
