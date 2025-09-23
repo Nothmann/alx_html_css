@@ -1,4 +1,3 @@
- alx_html_css
 This project is part of the ALX Software Engineering curriculum, focusing on foundational HTML and CSS skills. It builds on the previous My_First_Portfolio project and introduces layout techniques, responsive design, and basic styling.
 
  Key Concepts Covered
