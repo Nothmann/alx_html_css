@@ -1,0 +1,172 @@
+/* Base Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+  background-color: #fdfaf6;
+  color: #2c2c2c;
+  line-height: 1.5;
+}
+
+/* Header */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  background-color: #1e1e1e;
+  color: #fff;
+}
+
+header img {
+  height: 40px;
+}
+
+nav a {
+  margin-left: 20px;
+  text-decoration: none;
+  color: #f4f4f4;
+  font-weight: 600;
+}
+
+/* Banner */
+section:first-of-type {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 60px 40px;
+  background-color: #e8f5e9;
+}
+
+section:first-of-type div {
+  flex: 1;
+  min-width: 300px;
+  margin: 20px;
+}
+
+section:first-of-type h1 {
+  font-size: 2.5rem;
+  color: #2e7d32;
+}
+
+section:first-of-type button {
+  padding: 10px 20px;
+  background-color: #388e3c;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* Quote Section */
+section:nth-of-type(2) {
+  display: flex;
+  align-items: center;
+  padding: 40px;
+  background-color: #fff3e0;
+}
+
+blockquote {
+  font-style: italic;
+  font-size: 1.2rem;
+  color: #6d4c41;
+}
+
+/* Videos Section */
+.video-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 30px;
+  padding: 40px;
+}
+
+article {
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  padding: 20px;
+}
+
+article img {
+  width: 100%;
+  border-radius: 6px;
+}
+
+.author {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.author img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.rating img {
+  width: 20px;
+  margin-right: 2px;
+}
+
+/* Membership Cards */
+.membership-cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  padding: 40px;
+  background-color: #f1f8e9;
+}
+
+.membership-card {
+  flex: 1;
+  min-width: 280px;
+  background-color: #ffffff;
+  border: 2px solid #c5e1a5;
+  border-radius: 8px;
+  padding: 20px;
+}
+
+.membership-card h3 {
+  color: #558b2f;
+}
+
+.membership-card button {
+  margin-top: 10px;
+  padding: 10px;
+  background-color: #8bc34a;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* FAQ Section */
+section#faq {
+  padding: 40px;
+  background-color: #fffde7;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+section#faq h3 {
+  color: #6d4c41;
+}
+
+/* Footer */
+footer {
+  background-color: #1b1b1b;
+  color: #ccc;
+  padding: 30px 40px;
+  text-align: center;
+}
+
+footer img {
+  height: 30px;
+  margin: 0 10px;
+}
