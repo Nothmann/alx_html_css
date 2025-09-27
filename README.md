@@ -1,4 +1,3 @@
- alx_html_css
 This project is part of the ALX Software Engineering curriculum, focusing on foundational HTML and CSS skills. It builds on the previous My_First_Portfolio project and introduces layout techniques, responsive design, and basic styling.
 
  Key Concepts Covered
@@ -26,4 +25,5 @@ Semantic HTML structure with <header>, <main>, <article>, <aside>, and <footer>
 Open index.html or tweets.html in any modern browser. Resize the window to test responsiveness. All styles are loaded from base.css and styles.css.
 
  Author
+ 
 Built by Regun — aspiring health tech founder, front-end engineer in training, and systems thinker.
